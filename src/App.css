@@ -32,7 +32,16 @@ nav {
 
 
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  min-width: 100%;
+}
 
+.copy {
+  font-style: normal;
+  font-family: monospace;
+}
 
 
 .fade-enter {

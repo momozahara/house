@@ -1,0 +1,9 @@
+.card {
+  margin-top: 1rem;
+}
+
+small {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}

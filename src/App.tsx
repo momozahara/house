@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Container, Navbar, Button, Nav } from 'react-bootstrap';
+import { Navbar, Button, Nav } from 'react-bootstrap';
 import { BrowserRouter, Link } from 'react-router-dom';
 import Router from './router';
 import './App.css';
@@ -55,6 +55,11 @@ const App = () => {
         <h1 className="banner-header no-select">House</h1>
       </div>
       <Router />
+      <div className="footer">
+        <div className='text-center'>
+          <p style={{ color: 'black' }}><i className='copy'>&copy;</i> 2020 House</p>
+        </div>
+      </div>
     </BrowserRouter>
   )
 }
