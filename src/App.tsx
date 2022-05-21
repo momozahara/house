@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Container, Navbar, Button, Nav } from 'react-bootstrap';
 import { BrowserRouter, Link } from 'react-router-dom';
+import Router from './router';
 import './App.css';
 
 const App = () => {
@@ -53,9 +54,7 @@ const App = () => {
       <div className="banner">
         <h1 className="banner-header no-select">House</h1>
       </div>
-      <div style={{
-        height: '1000px',
-      }}></div>
+      <Router />
     </BrowserRouter>
   )
 }
